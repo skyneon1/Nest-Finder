@@ -14,9 +14,7 @@ A website for students to find PG's and hostel or flat in their nearby location 
 
 For live preview click on any of the below link-
 
-https://skyneon1.github.io/NestFinder/index.html
-
-https://nestfinder-geqs.onrender.com/
+https://nest-finder.onrender.com
 
 
 ## Authors
