@@ -1,0 +1,20 @@
+{
+  "name": "nestfinder",
+  "version": "1.0.0",
+  "description": "A website for students to find PG's and hostel or flat in their nearby location and is  hosted on render.com",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

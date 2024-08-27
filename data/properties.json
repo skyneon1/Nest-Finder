@@ -1,0 +1,1082 @@
+[
+    {
+        "id": 1,
+        "name": "Modern 2BHK Apartment",
+        "type": "Flat",
+        "location": "Koramangala, Bengaluru",
+        "price": "₹30,000/month",
+        "latitude": 12.9343,
+        "longitude": 77.6140
+    },
+    {
+        "id": 2,
+        "name": "Luxury 3BHK Villa",
+        "type": "House",
+        "location": "Whitefield, Bengaluru",
+        "price": "₹60,000/month",
+        "latitude": 12.9758,
+        "longitude": 77.7281
+    },
+    {
+        "id": 3,
+        "name": "Cozy Studio Apartment",
+        "type": "Flat",
+        "location": "MG Road, Bengaluru",
+        "price": "₹25,000/month",
+        "latitude": 12.9716,
+        "longitude": 77.5946
+    },
+    {
+        "id": 4,
+        "name": "Spacious 1BHK",
+        "type": "Flat",
+        "location": "Jayanagar, Bengaluru",
+        "price": "₹22,000/month",
+        "latitude": 12.9334,
+        "longitude": 77.5834
+    },
+    {
+        "id": 5,
+        "name": "Elegant 4BHK House",
+        "type": "House",
+        "location": "Hosur Road, Bengaluru",
+        "price": "₹75,000/month",
+        "latitude": 12.9346,
+        "longitude": 77.6171
+    },
+    {
+        "id": 6,
+        "name": "Contemporary 2BHK",
+        "type": "Flat",
+        "location": "Electronic City, Bengaluru",
+        "price": "₹28,000/month",
+        "latitude": 12.8603,
+        "longitude": 77.6658
+    },
+    {
+        "id": 7,
+        "name": "Charming 1BHK",
+        "type": "Flat",
+        "location": "BTM Layout, Bengaluru",
+        "price": "₹20,000/month",
+        "latitude": 12.9236,
+        "longitude": 77.6195
+    },
+    {
+        "id": 8,
+        "name": "Luxurious 3BHK Apartment",
+        "type": "Flat",
+        "location": "Bannerghatta Road, Bengaluru",
+        "price": "₹50,000/month",
+        "latitude": 12.8908,
+        "longitude": 77.5851
+    },
+    {
+        "id": 9,
+        "name": "Newly Built 2BHK",
+        "type": "Flat",
+        "location": "Sarjapur Road, Bengaluru",
+        "price": "₹35,000/month",
+        "latitude": 12.8916,
+        "longitude": 77.6403
+    },
+    {
+        "id": 10,
+        "name": "Affordable 1BHK",
+        "type": "Flat",
+        "location": "Wilson Garden, Bengaluru",
+        "price": "₹18,000/month",
+        "latitude": 12.9511,
+        "longitude": 77.6103
+    },
+    {
+        "id": 11,
+        "name": "Prime 3BHK in Indiranagar",
+        "type": "Flat",
+        "location": "Indiranagar, Bengaluru",
+        "price": "₹40,000/month",
+        "latitude": 12.9718,
+        "longitude": 77.6411
+    },
+    {
+        "id": 12,
+        "name": "Luxury Studio Apartment",
+        "type": "Flat",
+        "location": "Ulsoor, Bengaluru",
+        "price": "₹27,000/month",
+        "latitude": 12.9779,
+        "longitude": 77.6117
+    },
+    {
+        "id": 13,
+        "name": "Family 2BHK Flat",
+        "type": "Flat",
+        "location": "J.P. Nagar, Bengaluru",
+        "price": "₹32,000/month",
+        "latitude": 12.9267,
+        "longitude": 77.5830
+    },
+    {
+        "id": 14,
+        "name": "Cozy 2BHK in Basavanagudi",
+        "type": "Flat",
+        "location": "Basavanagudi, Bengaluru",
+        "price": "₹26,000/month",
+        "latitude": 12.9342,
+        "longitude": 77.5774
+    },
+    {
+        "id": 15,
+        "name": "Spacious 4BHK Villa",
+        "type": "House",
+        "location": "Raja Rajeshwari Nagar, Bengaluru",
+        "price": "₹70,000/month",
+        "latitude": 12.9111,
+        "longitude": 77.5696
+    },
+    {
+        "id": 16,
+        "name": "Modern 1BHK Apartment",
+        "type": "Flat",
+        "location": "Bellandur, Bengaluru",
+        "price": "₹22,000/month",
+        "latitude": 12.9194,
+        "longitude": 77.6407
+    },
+    {
+        "id": 17,
+        "name": "Luxury 2BHK House",
+        "type": "House",
+        "location": "Hebbal, Bengaluru",
+        "price": "₹55,000/month",
+        "latitude": 13.0344,
+        "longitude": 77.6061
+    },
+    {
+        "id": 18,
+        "name": "Stylish 2BHK Flat",
+        "type": "Flat",
+        "location": "Hebbal Kempapura, Bengaluru",
+        "price": "₹30,000/month",
+        "latitude": 13.0442,
+        "longitude": 77.6057
+    },
+    {
+        "id": 19,
+        "name": "Elegant Studio in Old Airport Road",
+        "type": "Flat",
+        "location": "Old Airport Road, Bengaluru",
+        "price": "₹26,000/month",
+        "latitude": 12.9703,
+        "longitude": 77.6365
+    },
+    {
+        "id": 20,
+        "name": "Cozy 3BHK House",
+        "type": "House",
+        "location": "Kengeri, Bengaluru",
+        "price": "₹45,000/month",
+        "latitude": 12.9210,
+        "longitude": 77.4911
+    },
+    {
+        "id": 21,
+        "name": "Luxury 1BHK Flat",
+        "type": "Flat",
+        "location": "Hennur, Bengaluru",
+        "price": "₹24,000/month",
+        "latitude": 13.0164,
+        "longitude": 77.5968
+    },
+    {
+        "id": 22,
+        "name": "Spacious 2BHK in HRBR Layout",
+        "type": "Flat",
+        "location": "HRBR Layout, Bengaluru",
+        "price": "₹33,000/month",
+        "latitude": 13.0201,
+        "longitude": 77.6415
+    },
+    {
+        "id": 23,
+        "name": "Modern 3BHK House",
+        "type": "House",
+        "location": "Vijayanagar, Bengaluru",
+        "price": "₹65,000/month",
+        "latitude": 12.9728,
+        "longitude": 77.5539
+    },
+    {
+        "id": 24,
+        "name": "Comfortable 1BHK",
+        "type": "Flat",
+        "location": "Jalahalli, Bengaluru",
+        "price": "₹21,000/month",
+        "latitude": 13.0211,
+        "longitude": 77.5637
+    },
+    {
+        "id": 25,
+        "name": "Elegant 2BHK in NGEF Layout",
+        "type": "Flat",
+        "location": "NGEF Layout, Bengaluru",
+        "price": "₹29,000/month",
+        "latitude": 12.9748,
+        "longitude": 77.6016
+    },
+    {
+        "id": 26,
+        "name": "Luxury 4BHK Villa",
+        "type": "House",
+        "location": "Kumaraswamy Layout, Bengaluru",
+        "price": "₹80,000/month",
+        "latitude": 12.9224,
+        "longitude": 77.5894
+    },
+    {
+        "id": 27,
+        "name": "Modern 2BHK Apartment",
+        "type": "Flat",
+        "location": "Rajajinagar, Bengaluru",
+        "price": "₹31,000/month",
+        "latitude": 12.9850,
+        "longitude": 77.5728
+    },
+    {
+        "id": 28,
+        "name": "Spacious 1BHK in Yeshwanthpur",
+        "type": "Flat",
+        "location": "Yeshwanthpur, Bengaluru",
+        "price": "₹23,000/month",
+        "latitude": 13.0154,
+        "longitude": 77.5587
+    },
+    {
+        "id": 29,
+        "name": "Charming 3BHK House",
+        "type": "House",
+        "location": "Malleswaram, Bengaluru",
+        "price": "₹50,000/month",
+        "latitude": 13.0034,
+        "longitude": 77.5725
+    },
+    {
+        "id": 30,
+        "name": "Luxury 2BHK Flat",
+        "type": "Flat",
+        "location": "Shivajinagar, Bengaluru",
+        "price": "₹34,000/month",
+        "latitude": 12.9821,
+        "longitude": 77.6068
+    },
+    {
+        "id": 31,
+        "name": "Comfortable 2BHK",
+        "type": "Flat",
+        "location": "Girinagar, Bengaluru",
+        "price": "₹27,000/month",
+        "latitude": 12.9400,
+        "longitude": 77.5833
+    },
+    {
+        "id": 32,
+        "name": "Elegant 1BHK House",
+        "type": "House",
+        "location": "Wilson Garden, Bengaluru",
+        "price": "₹22,000/month",
+        "latitude": 12.9511,
+        "longitude": 77.6103
+    },
+    {
+        "id": 33,
+        "name": "Modern 4BHK Villa",
+        "type": "House",
+        "location": "J.P. Nagar, Bengaluru",
+        "price": "₹72,000/month",
+        "latitude": 12.9267,
+        "longitude": 77.5830
+    },
+    {
+        "id": 34,
+        "name": "Luxury 3BHK Flat",
+        "type": "Flat",
+        "location": "Bellandur, Bengaluru",
+        "price": "₹42,000/month",
+        "latitude": 12.9194,
+        "longitude": 77.6407
+    },
+    {
+        "id": 35,
+        "name": "Cozy 2BHK House",
+        "type": "House",
+        "location": "Hebbal, Bengaluru",
+        "price": "₹40,000/month",
+        "latitude": 13.0344,
+        "longitude": 77.6061
+    },
+    {
+        "id": 36,
+        "name": "Spacious 1BHK",
+        "type": "Flat",
+        "location": "Kengeri, Bengaluru",
+        "price": "₹22,000/month",
+        "latitude": 12.9210,
+        "longitude": 77.4911
+    },
+    {
+        "id": 37,
+        "name": "Modern 3BHK Apartment",
+        "type": "Flat",
+        "location": "Indiranagar, Bengaluru",
+        "price": "₹38,000/month",
+        "latitude": 12.9718,
+        "longitude": 77.6411
+    },
+    {
+        "id": 38,
+        "name": "Luxury Studio Apartment",
+        "type": "Flat",
+        "location": "Ulsoor, Bengaluru",
+        "price": "₹28,000/month",
+        "latitude": 12.9779,
+        "longitude": 77.6117
+    },
+    {
+        "id": 39,
+        "name": "Comfortable 2BHK",
+        "type": "Flat",
+        "location": "Jalahalli, Bengaluru",
+        "price": "₹24,000/month",
+        "latitude": 13.0211,
+        "longitude": 77.5637
+    },
+    {
+        "id": 40,
+        "name": "Spacious 3BHK Villa",
+        "type": "House",
+        "location": "Vijayanagar, Bengaluru",
+        "price": "₹68,000/month",
+        "latitude": 12.9728,
+        "longitude": 77.5539
+    },
+    {
+        "id": 41,
+        "name": "Luxury 2BHK Flat",
+        "type": "Flat",
+        "location": "Shivajinagar, Bengaluru",
+        "price": "₹35,000/month",
+        "latitude": 12.9821,
+        "longitude": 77.6068
+    },
+    {
+        "id": 42,
+        "name": "Cozy 1BHK Apartment",
+        "type": "Flat",
+        "location": "Girinagar, Bengaluru",
+        "price": "₹23,000/month",
+        "latitude": 12.9400,
+        "longitude": 77.5833
+    },
+    {
+        "id": 43,
+        "name": "Elegant 4BHK Villa",
+        "type": "House",
+        "location": "Kumaraswamy Layout, Bengaluru",
+        "price": "₹78,000/month",
+        "latitude": 12.9224,
+        "longitude": 77.5894
+    },
+    {
+        "id": 44,
+        "name": "Modern 2BHK Flat",
+        "type": "Flat",
+        "location": "Rajajinagar, Bengaluru",
+        "price": "₹32,000/month",
+        "latitude": 12.9850,
+        "longitude": 77.5728
+    },
+    {
+        "id": 45,
+        "name": "Spacious 1BHK in Yeshwanthpur",
+        "type": "Flat",
+        "location": "Yeshwanthpur, Bengaluru",
+        "price": "₹24,000/month",
+        "latitude": 13.0154,
+        "longitude": 77.5587
+    },
+    {
+        "id": 46,
+        "name": "Charming 3BHK House",
+        "type": "House",
+        "location": "Malleswaram, Bengaluru",
+        "price": "₹52,000/month",
+        "latitude": 13.0034,
+        "longitude": 77.5725
+    },
+    {
+        "id": 47,
+        "name": "Luxury 2BHK Flat",
+        "type": "Flat",
+        "location": "Shivajinagar, Bengaluru",
+        "price": "₹36,000/month",
+        "latitude": 12.9821,
+        "longitude": 77.6068
+    },
+    {
+        "id": 48,
+        "name": "Comfortable 2BHK",
+        "type": "Flat",
+        "location": "Girinagar, Bengaluru",
+        "price": "₹28,000/month",
+        "latitude": 12.9400,
+        "longitude": 77.5833
+    },
+    {
+        "id": 49,
+        "name": "Spacious 1BHK in Kengeri",
+        "type": "Flat",
+        "location": "Kengeri, Bengaluru",
+        "price": "₹23,000/month",
+        "latitude": 12.9210,
+        "longitude": 77.4911
+    },
+    {
+        "id": 50,
+        "name": "Modern 3BHK House",
+        "type": "House",
+        "location": "Indiranagar, Bengaluru",
+        "price": "₹65,000/month",
+        "latitude": 12.9718,
+        "longitude": 77.6411
+    },
+    {
+        "id": 51,
+        "name": "Modern 2BHK Apartment",
+        "type": "Flat",
+        "location": "Connaught Place, Delhi",
+        "price": "₹35,000/month",
+        "latitude": 28.6280,
+        "longitude": 77.2167
+    },
+    {
+        "id": 52,
+        "name": "Luxury 3BHK Villa",
+        "type": "House",
+        "location": "Saket, Delhi",
+        "price": "₹70,000/month",
+        "latitude": 28.5216,
+        "longitude": 77.2076
+    },
+    {
+        "id": 53,
+        "name": "Cozy Studio Apartment",
+        "type": "Flat",
+        "location": "Greater Kailash, Delhi",
+        "price": "₹28,000/month",
+        "latitude": 28.5378,
+        "longitude": 77.2302
+    },
+    {
+        "id": 54,
+        "name": "Spacious 1BHK",
+        "type": "Flat",
+        "location": "Janakpuri, Delhi",
+        "price": "₹24,000/month",
+        "latitude": 28.6030,
+        "longitude": 77.0734
+    },
+    {
+        "id": 55,
+        "name": "Elegant 4BHK House",
+        "type": "House",
+        "location": "Vasant Kunj, Delhi",
+        "price": "₹80,000/month",
+        "latitude": 28.5281,
+        "longitude": 77.1536
+    },
+    {
+        "id": 56,
+        "name": "Contemporary 2BHK",
+        "type": "Flat",
+        "location": "Dwarka, Delhi",
+        "price": "₹30,000/month",
+        "latitude": 28.5610,
+        "longitude": 77.0266
+    },
+    {
+        "id": 57,
+        "name": "Charming 1BHK",
+        "type": "Flat",
+        "location": "Rohini, Delhi",
+        "price": "₹20,000/month",
+        "latitude": 28.6994,
+        "longitude": 77.1294
+    },
+    {
+        "id": 58,
+        "name": "Luxurious 3BHK Apartment",
+        "type": "Flat",
+        "location": "Lajpat Nagar, Delhi",
+        "price": "₹55,000/month",
+        "latitude": 28.5824,
+        "longitude": 77.2224
+    },
+    {
+        "id": 59,
+        "name": "Newly Built 2BHK",
+        "type": "Flat",
+        "location": "South Extension, Delhi",
+        "price": "₹38,000/month",
+        "latitude": 28.5606,
+        "longitude": 77.2186
+    },
+    {
+        "id": 60,
+        "name": "Affordable 1BHK",
+        "type": "Flat",
+        "location": "Kalkaji, Delhi",
+        "price": "₹22,000/month",
+        "latitude": 28.5400,
+        "longitude": 77.2737
+    },
+    {
+        "id": 61,
+        "name": "New 2BHK",
+        "type": "Flat",
+        "location": "Indraprastha, Delhi",
+        "price": "₹33,000/month",
+        "latitude": 28.6078,
+        "longitude": 77.0574
+    },
+    {
+        "id": 62,
+        "name": "Spacious Studio Apartment",
+        "type": "Flat",
+        "location": "Patel Nagar, Delhi",
+        "price": "₹26,000/month",
+        "latitude": 28.6330,
+        "longitude": 77.1771
+    },
+    {
+        "id": 63,
+        "name": "Elegant 3BHK Flat",
+        "type": "Flat",
+        "location": "Hauz Khas, Delhi",
+        "price": "₹52,000/month",
+        "latitude": 28.5535,
+        "longitude": 77.2074
+    },
+    {
+        "id": 64,
+        "name": "Modern 1BHK House",
+        "type": "House",
+        "location": "Civil Lines, Delhi",
+        "price": "₹29,000/month",
+        "latitude": 28.6841,
+        "longitude": 77.2036
+    },
+    {
+        "id": 65,
+        "name": "Luxury Penthouse",
+        "type": "Flat",
+        "location": "Delhi Cantt, Delhi",
+        "price": "₹90,000/month",
+        "latitude": 28.5846,
+        "longitude": 77.1462
+    },
+    {
+        "id": 66,
+        "name": "Cozy 2BHK",
+        "type": "Flat",
+        "location": "Shahdara, Delhi",
+        "price": "₹27,000/month",
+        "latitude": 28.6895,
+        "longitude": 77.2493
+    },
+    {
+        "id": 67,
+        "name": "Newly Renovated 3BHK",
+        "type": "Flat",
+        "location": "Chandni Chowk, Delhi",
+        "price": "₹44,000/month",
+        "latitude": 28.6523,
+        "longitude": 77.2338
+    },
+    {
+        "id": 68,
+        "name": "Affordable 2BHK",
+        "type": "Flat",
+        "location": "Rohini Sector 7, Delhi",
+        "price": "₹25,000/month",
+        "latitude": 28.6932,
+        "longitude": 77.1052
+    },
+    {
+        "id": 69,
+        "name": "Elegant Studio",
+        "type": "Flat",
+        "location": "Kamla Nagar, Delhi",
+        "price": "₹21,000/month",
+        "latitude": 28.6927,
+        "longitude": 77.2155
+    },
+    {
+        "id": 70,
+        "name": "Luxury 4BHK House",
+        "type": "House",
+        "location": "Jangpura, Delhi",
+        "price": "₹85,000/month",
+        "latitude": 28.5725,
+        "longitude": 77.2513
+    },
+    {
+        "id": 71,
+        "name": "Cozy 1BHK Flat",
+        "type": "Flat",
+        "location": "Mukherjee Nagar, Delhi",
+        "price": "₹23,000/month",
+        "latitude": 28.7012,
+        "longitude": 77.1945
+    },
+    {
+        "id": 72,
+        "name": "Modern 3BHK",
+        "type": "Flat",
+        "location": "Pitampura, Delhi",
+        "price": "₹50,000/month",
+        "latitude": 28.7019,
+        "longitude": 77.1395
+    },
+    {
+        "id": 73,
+        "name": "Spacious 1BHK",
+        "type": "Flat",
+        "location": "Bhajanpura, Delhi",
+        "price": "₹22,000/month",
+        "latitude": 28.7027,
+        "longitude": 77.2428
+    },
+    {
+        "id": 74,
+        "name": "Elegant 2BHK",
+        "type": "Flat",
+        "location": "Civil Lines, Delhi",
+        "price": "₹32,000/month",
+        "latitude": 28.6920,
+        "longitude": 77.2112
+    },
+    {
+        "id": 71,
+        "name": "Luxury 3BHK Apartment",
+        "type": "Apartment",
+        "location": "Andheri West, Mumbai",
+        "price": "₹1,50,000/month",
+        "latitude": 19.1265,
+        "longitude": 72.8347
+    },
+    {
+        "id": 72,
+        "name": "Modern Studio Flat",
+        "type": "Flat",
+        "location": "Bandra East, Mumbai",
+        "price": "₹50,000/month",
+        "latitude": 19.0604,
+        "longitude": 72.8479
+    },
+    {
+        "id": 73,
+        "name": "Spacious 2BHK",
+        "type": "Flat",
+        "location": "Powai, Mumbai",
+        "price": "₹90,000/month",
+        "latitude": 19.1117,
+        "longitude": 72.9121
+    },
+    {
+        "id": 74,
+        "name": "Cozy 1BHK",
+        "type": "Apartment",
+        "location": "Malad West, Mumbai",
+        "price": "₹40,000/month",
+        "latitude": 19.2048,
+        "longitude": 72.8312
+    },
+    {
+        "id": 75,
+        "name": "Elegant 3BHK",
+        "type": "Apartment",
+        "location": "Versova, Mumbai",
+        "price": "₹1,20,000/month",
+        "latitude": 19.1335,
+        "longitude": 72.8287
+    },
+    {
+        "id": 76,
+        "name": "Stylish 2BHK",
+        "type": "Flat",
+        "location": "Juhu, Mumbai",
+        "price": "₹1,00,000/month",
+        "latitude": 19.0912,
+        "longitude": 72.8258
+    },
+    {
+        "id": 77,
+        "name": "Charming Studio",
+        "type": "Studio",
+        "location": "Khar West, Mumbai",
+        "price": "₹55,000/month",
+        "latitude": 19.0592,
+        "longitude": 72.8395
+    },
+    {
+        "id": 78,
+        "name": "Spacious 4BHK",
+        "type": "Apartment",
+        "location": "Worli, Mumbai",
+        "price": "₹2,00,000/month",
+        "latitude": 18.9977,
+        "longitude": 72.8258
+    },
+    {
+        "id": 79,
+        "name": "Compact 1BHK",
+        "type": "Flat",
+        "location": "Borivali East, Mumbai",
+        "price": "₹35,000/month",
+        "latitude": 19.2344,
+        "longitude": 72.8444
+    },
+    {
+        "id": 80,
+        "name": "Elegant 3BHK Flat",
+        "type": "Flat",
+        "location": "Dadar, Mumbai",
+        "price": "₹1,10,000/month",
+        "latitude": 19.0257,
+        "longitude": 72.8358
+    },
+    {
+        "id": 81,
+        "name": "Modern 2BHK",
+        "type": "Apartment",
+        "location": "Parel, Mumbai",
+        "price": "₹85,000/month",
+        "latitude": 19.0026,
+        "longitude": 72.8310
+    },
+    {
+        "id": 82,
+        "name": "Luxury 1BHK",
+        "type": "Apartment",
+        "location": "Lower Parel, Mumbai",
+        "price": "₹60,000/month",
+        "latitude": 19.0154,
+        "longitude": 72.8315
+    },
+    {
+        "id": 83,
+        "name": "Cozy 3BHK",
+        "type": "Flat",
+        "location": "Andheri East, Mumbai",
+        "price": "₹1,40,000/month",
+        "latitude": 19.1407,
+        "longitude": 72.8507
+    },
+    {
+        "id": 84,
+        "name": "Modern Studio",
+        "type": "Studio",
+        "location": "Marine Drive, Mumbai",
+        "price": "₹70,000/month",
+        "latitude": 18.9394,
+        "longitude": 72.8232
+    },
+    {
+        "id": 85,
+        "name": "Spacious 2BHK",
+        "type": "Flat",
+        "location": "Santacruz West, Mumbai",
+        "price": "₹75,000/month",
+        "latitude": 19.0696,
+        "longitude": 72.8377
+    },
+    {
+        "id": 86,
+        "name": "Luxurious 4BHK",
+        "type": "Apartment",
+        "location": "Malabar Hill, Mumbai",
+        "price": "₹3,00,000/month",
+        "latitude": 18.9716,
+        "longitude": 72.8176
+    },
+    {
+        "id": 87,
+        "name": "Compact 2BHK",
+        "type": "Flat",
+        "location": "Goregaon East, Mumbai",
+        "price": "₹55,000/month",
+        "latitude": 19.1478,
+        "longitude": 72.8369
+    },
+    {
+        "id": 88,
+        "name": "Stylish Studio",
+        "type": "Studio",
+        "location": "Thane West, Mumbai",
+        "price": "₹45,000/month",
+        "latitude": 19.2183,
+        "longitude": 72.9788
+    },
+    {
+        "id": 89,
+        "name": "Elegant 1BHK",
+        "type": "Apartment",
+        "location": "Chembur, Mumbai",
+        "price": "₹50,000/month",
+        "latitude": 19.0744,
+        "longitude": 72.9070
+    },
+    {
+        "id": 90,
+        "name": "Luxury 2BHK",
+        "type": "Apartment",
+        "location": "Jogeshwari West, Mumbai",
+        "price": "₹85,000/month",
+        "latitude": 19.1538,
+        "longitude": 72.8301
+    },
+    {
+        "id": 91,
+        "name": "Spacious 3BHK Flat",
+        "type": "Flat",
+        "location": "Saki Naka, Mumbai",
+        "price": "₹95,000/month",
+        "latitude": 19.1104,
+        "longitude": 72.8950
+    },
+    {
+        "id": 92,
+        "name": "Compact Studio",
+        "type": "Studio",
+        "location": "Malad East, Mumbai",
+        "price": "₹40,000/month",
+        "latitude": 19.2220,
+        "longitude": 72.8410
+    },
+    {
+        "id": 93,
+        "name": "Modern 3BHK Apartment",
+        "type": "Apartment",
+        "location": "Kandivali West, Mumbai",
+        "price": "₹1,10,000/month",
+        "latitude": 19.2242,
+        "longitude": 72.8291
+    },
+    {
+        "id": 71,
+        "name": "Elegant 2BHK Flat",
+        "type": "Flat",
+        "location": "C-Scheme, Jaipur",
+        "price": "₹25,000/month",
+        "latitude": 26.9124,
+        "longitude": 75.7873
+    },
+    {
+        "id": 72,
+        "name": "Modern Studio Apartment",
+        "type": "Studio",
+        "location": "Vaishali Nagar, Jaipur",
+        "price": "₹18,000/month",
+        "latitude": 26.9158,
+        "longitude": 75.7932
+    },
+    {
+        "id": 73,
+        "name": "Luxury 3BHK",
+        "type": "Apartment",
+        "location": "Malviya Nagar, Jaipur",
+        "price": "₹45,000/month",
+        "latitude": 26.8506,
+        "longitude": 75.7989
+    },
+    {
+        "id": 74,
+        "name": "Cozy 1BHK",
+        "type": "Flat",
+        "location": "Raja Park, Jaipur",
+        "price": "₹20,000/month",
+        "latitude": 26.9183,
+        "longitude": 75.8109
+    },
+    {
+        "id": 75,
+        "name": "Stylish 2BHK",
+        "type": "Flat",
+        "location": "Shyam Nagar, Jaipur",
+        "price": "₹30,000/month",
+        "latitude": 26.9144,
+        "longitude": 75.7795
+    },
+    {
+        "id": 76,
+        "name": "Spacious 3BHK Apartment",
+        "type": "Apartment",
+        "location": "Jagatpura, Jaipur",
+        "price": "₹50,000/month",
+        "latitude": 26.8370,
+        "longitude": 75.8083
+    },
+    {
+        "id": 77,
+        "name": "Elegant 2BHK",
+        "type": "Flat",
+        "location": "Ashok Nagar, Jaipur",
+        "price": "₹22,000/month",
+        "latitude": 26.9224,
+        "longitude": 75.8250
+    },
+    {
+        "id": 78,
+        "name": "Modern 1BHK",
+        "type": "Flat",
+        "location": "JLN Marg, Jaipur",
+        "price": "₹25,000/month",
+        "latitude": 26.9038,
+        "longitude": 75.8038
+    },
+    {
+        "id": 79,
+        "name": "Luxury 4BHK",
+        "type": "Apartment",
+        "location": "Bani Park, Jaipur",
+        "price": "₹60,000/month",
+        "latitude": 26.9264,
+        "longitude": 75.8210
+    },
+    {
+        "id": 80,
+        "name": "Compact Studio",
+        "type": "Studio",
+        "location": "Sanganer, Jaipur",
+        "price": "₹15,000/month",
+        "latitude": 26.8286,
+        "longitude": 75.7880
+    },
+    {
+        "id": 81,
+        "name": "Stylish 3BHK",
+        "type": "Apartment",
+        "location": "Malviya Nagar, Jaipur",
+        "price": "₹48,000/month",
+        "latitude": 26.8522,
+        "longitude": 75.8049
+    },
+    {
+        "id": 82,
+        "name": "Cozy 2BHK Flat",
+        "type": "Flat",
+        "location": "C-Scheme, Jaipur",
+        "price": "₹28,000/month",
+        "latitude": 26.9125,
+        "longitude": 75.7855
+    },
+    {
+        "id": 83,
+        "name": "Elegant Studio",
+        "type": "Studio",
+        "location": "Vaishali Nagar, Jaipur",
+        "price": "₹17,000/month",
+        "latitude": 26.9152,
+        "longitude": 75.7904
+    },
+    {
+        "id": 84,
+        "name": "Spacious 2BHK",
+        "type": "Flat",
+        "location": "Raja Park, Jaipur",
+        "price": "₹27,000/month",
+        "latitude": 26.9190,
+        "longitude": 75.8102
+    },
+    {
+        "id": 85,
+        "name": "Luxury 1BHK",
+        "type": "Flat",
+        "location": "Shyam Nagar, Jaipur",
+        "price": "₹22,000/month",
+        "latitude": 26.9120,
+        "longitude": 75.7810
+    },
+    {
+        "id": 86,
+        "name": "Modern 3BHK",
+        "type": "Apartment",
+        "location": "Jagatpura, Jaipur",
+        "price": "₹55,000/month",
+        "latitude": 26.8375,
+        "longitude": 75.8080
+    },
+    {
+        "id": 87,
+        "name": "Stylish 2BHK",
+        "type": "Flat",
+        "location": "Ashok Nagar, Jaipur",
+        "price": "₹30,000/month",
+        "latitude": 26.9200,
+        "longitude": 75.8230
+    },
+    {
+        "id": 88,
+        "name": "Compact 1BHK",
+        "type": "Flat",
+        "location": "JLN Marg, Jaipur",
+        "price": "₹20,000/month",
+        "latitude": 26.9050,
+        "longitude": 75.8045
+    },
+    {
+        "id": 89,
+        "name": "Luxury 2BHK",
+        "type": "Apartment",
+        "location": "Bani Park, Jaipur",
+        "price": "₹35,000/month",
+        "latitude": 26.9250,
+        "longitude": 75.8205
+    },
+    {
+        "id": 90,
+        "name": "Spacious Studio",
+        "type": "Studio",
+        "location": "Sanganer, Jaipur",
+        "price": "₹18,000/month",
+        "latitude": 26.8300,
+        "longitude": 75.7900
+    },
+    {
+        "id": 91,
+        "name": "Elegant 3BHK",
+        "type": "Flat",
+        "location": "Vaishali Nagar, Jaipur",
+        "price": "₹40,000/month",
+        "latitude": 26.9160,
+        "longitude": 75.7900
+    },
+    {
+        "id": 92,
+        "name": "Modern 2BHK Flat",
+        "type": "Flat",
+        "location": "Raja Park, Jaipur",
+        "price": "₹32,000/month",
+        "latitude": 26.9170,
+        "longitude": 75.8120
+    },
+    {
+        "id": 93,
+        "name": "Stylish 1BHK",
+        "type": "Flat",
+        "location": "Shyam Nagar, Jaipur",
+        "price": "₹24,000/month",
+        "latitude": 26.9100,
+        "longitude": 75.7800
+    }
+]

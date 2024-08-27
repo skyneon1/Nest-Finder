@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Property Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="/css/map.css">
+</head>
+
+<body>
+    <header>
+        <!-- <h1>Modern Property Finder</h1> -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/assets/logo.png" alt="NestFinder" class="logo-img">
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/guest">Guest</a></li>
+                <li><a href="/hostel">Hostel</a></li>
+                <li><a href="/rental">Rental</a></li>
+                <li><a href="/login">Nearby</a></li>
+                <li><a href="/search-page">More</a></li>
+            </ul>
+            <div class="nav-icons">
+
+                <a href="#"><i class='bx bx-bell'></i></a>
+                <button class="btn-primary1">Start searching</button>
+                <a href="#results" class="pricing">Pricing</a>
+                <a href="#" class="icon user-profile">
+                    <img src="https://img.freepik.com/free-photo/geometric-abstract-background_1048-18105.jpg?t=st=1723264711~exp=1723268311~hmac=ab1206bfcff4dcf0fcc674187fbd2570d46e76244665aa27ccbf302aed46963d&w=360"
+                        alt="Profile" class="profile-pic">
+                    <i class='bx bxs-user-circle'></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div id="search-container">
+        <input type="text" id="search" placeholder="Search for properties like whitefield, name, type, or location... (ex. delhi,Bengaluru, kormangla etc...)" />
+    </div>
+    <div id="map"></div>
+    <div id="results"></div>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="/js/map.js"></script>
+</body>
+
+</html>

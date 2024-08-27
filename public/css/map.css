@@ -1,0 +1,214 @@
+        ::-webkit-scrollbar {
+            width: 10px;
+            height: 10px;
+            /* background-color: aqua; */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            color: black;
+            background: #000;
+            border-radius: 50px;
+        }
+
+        @media (min-width: 600px) and (max-width: 1200px) {
+            body {
+                width: 255vw;
+            }
+        }
+
+        @media (max-width:600px) {
+            body {
+                width: 400vw;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav .logo img {
+            max-width: 120px;
+            aspect-ratio: 3/2;
+            object-fit: contain;
+            mix-blend-mode: darken;
+            border-radius: 50%;
+        }
+
+        li {
+            margin-right: 20px;
+        }
+
+        nav li:hover,
+        .GHS li a:hover {
+            transform: scale(1.2);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000000;
+            font-weight: 600;
+            font-size: 25px;
+            transition: color 0.2s ease;
+            margin: 0 14px;
+        }
+
+        a:hover {
+            color: #000000;
+            text-decoration: underline;
+        }
+
+        .nav-icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-primary1 {
+            background-color: #fff;
+            color: #333;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 20px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-primary1:hover {
+            background-color: #7b7a79;
+            color: #fff;
+        }
+
+        .pricing {
+            color: black;
+            margin-right: 20px;
+        }
+
+        .pricing:hover {
+            color: wheat;
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .icon {
+            margin-right: 10px;
+            color: #000;
+        }
+
+        .user-profile img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f0f0f0;
+        }
+
+        header {
+            /* background: #2c3e50; */
+            color: #ecf0f1;
+            padding: 15px;
+            text-align: center;
+            height: 3%;
+            background: #d5d5d5;
+        }
+
+        nav {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: -webkit-fill-available;
+            font-family: math;
+        }
+
+        #search-container {
+            margin: 20px;
+            text-align: center;
+        }
+
+        #search {
+            width: 80%;
+            padding: 10px;
+            font-size: 18px;
+            border: 2px solid #2c3e50;
+            border-radius: 5px;
+        }
+
+        #map {
+            height: 500px;
+            width: 99%;
+            margin: 0 auto;
+            margin-top: 20px;
+            border: 2px solid rgb(248, 248, 248);
+            border-radius: 24px;
+            box-shadow: 10px 10px 5px rgb(209, 251, 243);
+        }
+
+        #results {
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: #fff;
+
+            border: 2px solid rgb(248, 248, 248);
+            border-radius: 24px;
+            box-shadow: 6px 6px 5px rgb(255, 187, 175);
+            margin: 10px;
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .card p {
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .card>.btn {
+            background: #2c3e50;
+            color: #ecf0f1;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 15px;
+        }
+
+        .card .btn:hover {
+            background: #34495e;
+        }
+
+        .leaflet-popup-content {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+        }

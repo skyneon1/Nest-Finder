@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Details</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: #f0f0f0;
+        }
+        header {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            margin-top: 0;
+        }
+        .container p {
+            font-size: 18px;
+            color: #555;
+        }
+        .btn-back {
+            display: inline-block;
+            background: #2c3e50;
+            color: #ecf0f1;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+        .btn-back:hover {
+            background: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Property Details</h1>
+    </header>
+    <div class="container">
+        <h1><%= property.name %></h1>
+        <p><strong>Type:</strong> <%= property.type %></p>
+        <p><strong>Location:</strong> <%= property.location %></p>
+        <p><strong>Price:</strong> <%= property.price %></p>
+     <p><strong>Latitude:</strong> <%= property.latitude %></p>
+        <p><strong>Longitude:</strong> <%= property.longitude %></p>
+        <a href="/" class="btn-back">Back to Search</a>
+    </div>
+</body>
+</html>

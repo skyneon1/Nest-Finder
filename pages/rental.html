@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nest-Finder: Rental</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/rental.css">
+</head>
+<body>
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Welcome to Nest Finder</h1>
+        <nav>
+            <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link text-white" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="/guest">Paying Guest</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="/hostel">Hostels</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="/rental">Rental</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="carousel-section py-5">
+        <h2 class="text-center mb-4">Available Rooms</h2>
+        <h3 class="text-center mb-4">Your Home, Just a Click Away!</h3>
+        <div id="roomCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://cupliv.com/images/bangalore/hyphen-club-vieux/1.jpg" class="card-img-top" alt="Single Room">
+                                <div class="card-body">
+                                    <h5 class="card-title">Double Room</h5>
+                                    <p class="card-text">Price: ₹17,500/month<br>Location: XYZ Street, Sector 15, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://rimh2.domainstatic.com.au/GMMvkPmV6Nzt2no_BFLpC4009yw=/660x440/filters:format(jpeg):quality(80)/17128528_2_1_240724_052407-w1068-h723" class="card-img-top" alt="Double Room">
+                                <div class="card-body">
+                                    <h5 class="card-title">Single Room</h5>
+                                    <p class="card-text">Price: ₹12,000/month<br>Location: ABC Street, Sector 21, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://media.istockphoto.com/id/1398814566/photo/interior-of-small-apartment-living-room-for-home-office.webp?b=1&s=170667a&w=0&k=20&c=7Zv8DXArvGBsLoc4lGMgZ6fieane9s4zC9ioeSETG7k=" class="card-img-top" alt="Deluxe Room">
+                                <div class="card-body">
+                                    <h5 class="card-title">Deluxe Room</h5>
+                                    <p class="card-text">Price: ₹20,000/month<br>Location: PQR Street, Sector 10, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://content.jdmagicbox.com/comp/def_content_category/oyo/300582493-3441097119459221-4196454718936241444-n-oyo-4-u8zd2.jpg" class="card-img-top" alt="Shared Dormitory">
+                                <div class="card-body">
+                                    <h5 class="card-title">Shared Dormitory</h5>
+                                    <p class="card-text">Price: ₹7,000/month per bed<br>Location: LMN Street, Sector 5, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://images1.apartmenthomeliving.com/i2/ueDsf4uGJmUyBvvvEEX08XB4stVUa6YNiyaGMwjZ2QI/117/image.jpg" class="card-img-top" alt="Executive Suite">
+                                <div class="card-body">
+                                    <h5 class="card-title">Executive Suite</h5>
+                                    <p class="card-text">Price: ₹25,000/month<br>Location: GHI Street, Sector 7, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="card room-card">
+                                <img src="https://media.vrbo.com/lodging/34000000/33490000/33484700/33484618/7f9ce2fc.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill" class="card-img-top" alt="Triple Sharing Room">
+                                <div class="card-body">
+                                    <h5 class="card-title">Triple Sharing Room</h5>
+                                    <p class="card-text">Price: ₹10,000/month per bed<br>Location: JKL Street, Sector 18, City</p>
+                                    <a href="#" class="btn btn-primary">Book Now</a>
+                                    <a href="#" class="btn btn-primary">Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#roomCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#roomCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+        <div class="search-container">
+            <h1 class="header-title">Ready for searching your Nest?</h1>
+            <form action="">
+                <i class="bx bx-search-alt-2 searchi"></i>
+                <input type="text" placeholder="Find Your Perfect Nest" />
+            </form>
+        </div>
+    </header>
+    <main>
+        <section id="Rental-list" class="Rental-list">
+        <div class="Rental-card">
+            <div class="Rental-item">
+                <img src="https://cupliv.com/images/bangalore/Hyphen-Club-Lush/1.jpg" alt="Rental Image" />
+                <div class="Rental-details">
+                    <h2>Cozy Homestay</h2>
+                    <p><strong>Location:</strong> Jaipur, Rajasthan</p>
+                    <p><strong>Rating:</strong> 4.7/5</p>
+                    <p><strong>Price per Night:</strong>₹4,500</p>
+                    <p><strong>Description:</strong> Located in the heart of Jaipur, this suite offers a regal experience in a restored haveli. The room features traditional Rajasthani decor, a king-size bed, and a private balcony overlooking the city. Perfect for experiencing the rich heritage of Jaipur.</p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="Rental-item">
+                <img src="https://images.khmer24.co/23-06-22/one-bedroom-for-rent-at-tonlebasacc-areas-293957168742054913014903-b.jpg" alt="Rental Image" />
+                <div class="Rental-details">
+                    <h2>Heritage Haveli Suite</h2>
+                    <p><strong>Location:</strong> Coorg, Karnataka</p>
+                    <p><strong>Rating:</strong> 4.7/5</p>
+                    <p><strong>Price per Night:</strong> ₹3,200                    </p>
+                    <p><strong>Description:</strong> Nestled amidst coffee plantations, this cozy room offers a peaceful retreat in the hills of Coorg. The room includes a queen-size bed, a private balcony with views of the lush greenery, and complimentary breakfast. </p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Rental-card">
+            <div class="Rental-item">
+                <img src="https://dbz-images.dubizzle.com/images/2024/08/01/0d3094384db641fd817b2b98c341aecb-.jpeg?impolicy=dpc" alt="Rental image" />
+                <div class="Rental-details">
+                    <h2>Luxury Beachside Villa</h2>
+                    <p><strong>Location:</strong>Goa</p>
+                    <p><strong>Rating:</strong> 4.8/5</p>
+                    <p><strong>Price per Night:</strong>₹7,000                    </p>
+                    <p><strong>Description:</strong> Situated right on the beach, this luxurious villa offers a perfect blend of comfort and natural beauty. The room features a king-size bed, modern amenities, and a private patio with stunning ocean views. Ideal for a relaxing getaway in Goa.</p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>            
+            <div class="Rental-item">
+                <img src="https://roomless-listing-images.s3.us-east-2.amazonaws.com/listing/22/31/66/82/22316682-d69e-4b13-86ee-1066b13d587f.jpeg" alt="Rental Image" />
+                <div class="Rental-details">
+                    <h2>Elegant City Apartment</h2>
+                    <p><strong>Location:</strong>  Mumbai, Maharashtra                    </p>
+                    <p><strong>Rating:</strong> 4.5/5</p>
+                    <p><strong>Price per Night:</strong> ₹5,000</p>
+                    <p><strong>Description:</strong>  Located in the bustling area of Bandra, this modern apartment is ideal for urban explorers. The room features a queen-size bed, a fully equipped kitchenette, and access to the building's amenities like a gym and pool. </p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>        
+        </div>    
+        <div class="Rental-card">
+            <div class="Rental-item">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-766391021429373572/original/307c1892-1d4e-4cbc-b754-76ae6db164bd.jpeg?im_w=720" alt="Rental Image" />
+                <div class="Rental-details">
+                    <h2> Modern Studio</h2>
+                    <p><strong>Location:</strong> Bangalore, Karnataka                    </p>
+                    <p><strong>Rating:</strong> 4.6/5</p>
+                    <p><strong>Price per Night:</strong> ₹4,200                    </p>
+                    <p><strong>Description:</strong> Located in the heart of Bangalore, this modern studio offers comfort and convenience. The room features a double bed, high-speed Wi-Fi, a kitchenette, and a workspace. Ideal for business travelers or those looking to explore the city.</p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>            
+            <div class="Rental-item">
+                <img src="https://img4.idealista.com/blur/WEB_LISTING-M/0/id.pro.es.image.master/43/01/81/1105655354.jpg" alt="Rental Image" />
+                <div class="Rental-details">
+                    <h2>Riverside Cottage</h2>
+                    <p><strong>Location:</strong>  Manali, Himachal Pradesh                    </p>
+                    <p><strong>Rating:</strong> 4.9/5</p>
+                    <p><strong>Price per Night:</strong> ₹3,800                    </p>
+                    <p><strong>Description:</strong> This charming cottage by the river Beas offers a serene stay amidst the mountains. The room includes a queen-size bed, a fireplace, and a private balcony with river views. A perfect spot for a peaceful retreat in nature.</p>
+                    <div class="btn">
+                        <a href="#" class="btns">Book now</a>
+                        <a href="#" class="btns">Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>CONTENT</h3>
+                <ul>
+                    <li><a href="#">Calendar </a></li>
+                    <li><a href="#">New assets</a></li>
+                    <li><a href="#">popular content</a></li>
+                    <li><a href="#">Search trends</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>INFORMATION</h3>
+                <ul>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Jobs</a></li>
+                    <li><a href="#">Sell content</a></li>
+                    <li><a href="#">guidelines</a></li>
+                    <li><a href="#">Events</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>LEGAL</h3>
+                <ul>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">License</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Copyright</a></li>
+                    <li><a href="#">Cookies policy</a></li>
+                    <li><a href="#">Cookies settings</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SUPPORT</h3>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Search guide</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>SOCIAL MEDIA</h3>
+                <ul class="social-media">
+                    <li><a href="https://www.youtube.com/skyneon1/" target="_blank"><i class='bx bxl-youtube'></i>Youtube</a></li>
+                    <li><a href="https://x.com/skyneon1/" target="_blank"><i class='bx bxl-twitter'></i>Twitter</a></li>
+                    <li><a href="https://pinterest.com/skyneon1/" target="_blank"><i class='bx bxl-pinterest'></i>Pinterest</a></li>
+                    <li><a href="https://LinkedIn.com/skyneon1/" target="_blank"><i class='bx bxl-linkedin-square'></i>LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/skyneon1/" target="_blank"><i class='bx bxl-instagram-alt'></i>Instagram</a></li>
+                </ul>                
+                <p>Get exclusive assets sent straight to your inbox</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>©2024 NestFinder. All rights reserved.</p>
+            <div class="footer-bottom-right">
+                <div class="language-switcher">
+                    <button>English</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/rental.js"></script>
+</body>
+
+</html>
